@@ -1,0 +1,20 @@
+{
+	"name" : "cheler/frameDemo",
+	"description" : "A PHP Project",
+	"type" : "library",
+	"license" : "MIT",
+	"keywords" : [
+		"frame"
+	],
+	"require" : {
+		"php" : ">=7.0.0",
+		"phpunit/phpunit" : "6.5.5",
+		"cheler/frame" : "0.0.24"
+	},
+	"repositories" : [{
+			"type" : "vcs",
+			"url" : "git@git.linewin.cc:composer/ChelerApi.git",
+			"name" : "cheler/frame"
+		}
+	]
+}
